@@ -1,0 +1,73 @@
+<ion-view hide-back-button="true" view-title="Profile Builder">
+	
+		<ion-nav-buttons side="left">     
+	    </ion-nav-buttons>
+	    
+	    <ion-nav-buttons side="right"> 
+	    	<!-- Next Button -->
+	       <button class="button button-positive button-clear no-animation" ng-click="next()" ng-show="slideIndex == 2" style="display:{{nextText}}">
+				Next
+	        </button>
+
+	        <button class="button button-positive button-clear no-animation" ng-click="profileBuilderFinish()" ng-show="slideIndex == 4">
+				Confirm
+	        </button>
+	      	
+	    </ion-nav-buttons>
+	   
+	    <ion-slide-box ng-init="disableSlide()" on-slide-changed="slideChanged(index)">
+	      
+	    <!-- Get from user: Male or female? -->
+
+
+	    <ion-slide>
+
+	        <div id="male-button-container" ng-click="selectMale()">
+	         	<div class="home">  </div>
+	        </div>
+
+	    </ion-slide>
+	      
+	    <!-- Get from user: General workout goal? -->
+	    <ion-slide>
+
+	      	<div id="scale-button-container" ng-click="selectScale()">
+	      		<div class="map"> </div>
+				<img style = height:180% width:30%; src="../img/test.gif" width="300" height="900"/>
+	        </div>
+	        
+	    </ion-slide>
+
+	    <!-- Get from user: favorite workout from each category -->
+	    <ion-slide>
+	        <div id="scale-button-container" ng-click="selectScale()">
+	      		<div class="map2"> </div>
+				<img style = height:180% width:30%; src="../img/test.gif" width="300" height="900"/>
+	        </div>
+	    </ion-slide>
+
+	    <!-- Get from user: favorite cardio activity -->
+	    <ion-slide>
+	      	<div id="scale-button-container" ng-click="selectScale()">
+	      		<div class="lastImage"> </div>
+				<img style = height:180% width:30%; src="../img/test.gif" width="300" height="900"/>
+	       </div>
+	    </ion-slide>
+
+	    <!-- Summary and confimartion of selections -->
+	    <ion-slide>
+	      	<h3>Are these details correct?</h3>
+	      	<p>Sex: {{sex}}</p>
+	      	<p>Workout Goal: {{goal}}</p>
+	      	<p>Favorite Arms: {{favs["arms"]}}</p>
+	      	<p>Favorite Legs: {{favs["legs"]}}</p>
+	      	<p>Favorite Back: {{favs["back"]}}</p>
+	      	<p>Favorite Shoulders: {{favs["shoulders"]}}</p>
+	      	<p>Favorite Chest: {{favs["chest"]}}</p>
+	      	<p>Favorite Cardio: {{favs["cardio"]}}</p>
+	    </ion-slide>
+
+	</ion-slide-box>
+</ion-view>
+
+    
