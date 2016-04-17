@@ -1,0 +1,82 @@
+
+.gray-background {
+	background-color: gray;
+}
+
+.thick-border {
+	border-color: black;
+	border-width: 10px;
+}
+
+.login {
+	background: url(../img/loginPage.png);
+	background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: cover;
+    width: 92%;
+    height: 1000px;
+    margin: auto;
+    z-index: 2;
+    position: relative;
+}
+
+.splash{
+	background: url(../img/splashScreen.png);
+	background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: cover;
+    width: 92%;
+    height: 1000px;
+    margin: auto;
+    z-index: 2;
+    position: relative;
+}
+
+.home{
+	background: url(../img/homePage.png);
+	background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: cover;
+    width: 92%;
+    height: 1000px;
+    margin: auto;
+    z-index: 2;
+    position: relative;
+}
+
+.map{
+	background: url(../img/newGif.gif);
+	background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: cover;
+    width: 225%;
+    height: 1000px;
+    margin: auto;
+    z-index: 2;
+    position: relative;
+}
+
+.map2{
+	background: url(../img/lastmov.gif);
+	background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: cover;
+    width: 260%;
+    height: 1000px;
+    margin: auto;
+    z-index: 2;
+    position: relative;
+}
+
+.lastImage {
+	background: url(../img/lastimage.jpg);
+	background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: cover;
+    width: 260%;
+    height: 1000px;
+    margin: auto;
+    z-index: 2;
+    position: relative;
+}
+ng-class="{'active': $index === current}"

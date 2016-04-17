@@ -1,7 +1,20 @@
 {
-  "name": "HelloIonic",
-  "private": "true",
-  "devDependencies": {
-    "ionic": "driftyco/ionic-bower#1.2.4"
-  }
+  "name": "Chart.js",
+  "description": "Simple HTML5 Charts using the canvas element",
+  "homepage": "https://github.com/nnnick/Chart.js",
+  "author": "nnnick",
+  "main": [
+    "Chart.js"
+  ],
+  "ignore": [
+    "**/*",
+    ".travis.yml",
+    "CONTRIBUTING.md",
+    "Chart.js",
+    "LICENSE.md",
+    "README.md",
+    "gulpfile.js",
+    "package.json"
+  ],
+  "dependencies": {}
 }

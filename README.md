@@ -1,25 +1,61 @@
-Ionic App Base
-=====================
+[![](http://tannerlinsley.com/memes/chartjs.gif)](http://www.chartjs.org/docs/)
 
-A starting project for Ionic that optionally supports using custom SCSS.
+# Chart.js 
 
-## Using this project
+[![Build Status](https://travis-ci.org/nnnick/Chart.js.svg?branch=master)](https://travis-ci.org/nnnick/Chart.js) [![Code Climate](https://codeclimate.com/github/nnnick/Chart.js/badges/gpa.svg)](https://codeclimate.com/github/nnnick/Chart.js) [![Chart.js on Slack](https://img.shields.io/badge/slack-Chart.js-blue.svg)](https://chartjs-slack-automation.herokuapp.com/)
 
-We recommend using the [Ionic CLI](https://github.com/driftyco/ionic-cli) to create new Ionic projects that are based on this project but use a ready-made starter template.
 
-For example, to start a new Ionic project with the default tabs interface, make sure the `ionic` utility is installed:
+*Simple HTML5 Charts using the canvas element* [chartjs.org](http://www.chartjs.org)
 
-```bash
-$ npm install -g ionic
-```
+## v1.0.2 Stable
 
-Then run:
+- NPM: `npm install chart.js --save`
+- Bower: `bower install Chart.js --save`
+- CDN: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js
+- Zip: [Download](https://github.com/nnnick/Chart.js/archive/master.zip)
 
-```bash
-$ ionic start myProject tabs
-```
+[Examples](https://github.com/nnnick/Chart.js/tree/master/samples) | [Documentation](http://www.chartjs.org/docs/)
 
-More info on this can be found on the Ionic [Getting Started](http://ionicframework.com/getting-started) page and the [Ionic CLI](https://github.com/driftyco/ionic-cli) repo.
+## v2.0 Beta
 
-## Issues
-Issues have been disabled on this repo, if you do find an issue or have a question consider posting it on the [Ionic Forum](http://forum.ionicframework.com/).  Or else if there is truly an error, follow our guidelines for [submitting an issue](http://ionicframework.com/submit-issue/) to the main Ionic repository.
+- Release: [2.0.0-beta](https://github.com/nnnick/Chart.js/releases/tag/2.0.0-beta)
+- Zip: [Download](https://github.com/nnnick/Chart.js/archive/2.0.0-beta2.zip)
+
+Documentation for v2.0 is currently located [here](http://nnnick.github.io/Chart.js/docs-v2/).
+
+## v2.0 Bleeding-Edge
+
+- Branch: [v2.0-dev](https://github.com/nnnick/Chart.js/tree/v2.0-dev)
+- Zip: [Download](https://github.com/nnnick/Chart.js/archive/v2.0-dev.zip)
+
+The next generation and release of Chart.js (v2.0) has been well under way this year and we are very close to releasing some amazing new features including, but not limited to:
+- Rewritten, optimized, and unit-tested
+- New and improved scales (log, time, linear, category, multiple scales)
+- Improved Tooltips and tooltip callbacks for customization
+- Improved responsiveness and resizing
+- Powerful support for adding, removing, changing, and updating data on the fly
+- Animations for everything, including all elements, colors and tooltips
+- Powerful customization when you need it. Automatic and dynamic when you don't.
+- Excellent support for modern frameworks and modular build systems.
+- Even more extensible via new element controllers, core scale classes, combo chart support, and hook systems
+- Bug fixes, stability improvements, etc.
+
+#####Contributing to 2.0
+Submit PR's to the v2.0-dev branch.
+
+#####Building and Testing
+`gulp build`, `gulp test`, `gulp watch --test`
+
+#####v1.x Status: Feature Complete
+v1.x is now considered feature complete.  PR's for bug fixes are still extremely welcome.  Any open PR's for v1.x features will need to be reconsidered, refactored and resubmitted for v2.x (if the feature has not already been implemented). For questions on new features refer to the docs in the v2.0-dev branch
+
+
+## Bugs, Issues and Contributing
+
+Before submitting an issue or a pull request to the project, please take a moment to look over the [contributing guidelines](https://github.com/nnnick/Chart.js/blob/master/CONTRIBUTING.md) first.
+
+For support using Chart.js, please post questions with the [`chartjs` tag on Stack Overflow](http://stackoverflow.com/questions/tagged/chartjs).
+
+## License
+
+Chart.js is available under the [MIT license](https://github.com/nnnick/Chart.js/blob/master/LICENSE.md).
